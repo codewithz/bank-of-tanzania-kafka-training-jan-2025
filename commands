@@ -1,1 +1,17 @@
+For starting Kafka Cluster
+____________________________________
 docker-compose -f docker-compose.yaml up
+
+
+For checking the running containers 
+____________________________________
+docker-compose -f docker-compose.yaml ps
+
+
+
+For Starting a Exec Session with Broker 
+____________________________________
+
+docker exec -it name-of-container /bin/bash
+
+docker exec -it broker-1 /bin/bash
