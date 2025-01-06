@@ -15,3 +15,7 @@ ____________________________________
 docker exec -it name-of-container /bin/bash
 
 docker exec -it broker-1 /bin/bash
+
+For Creating a Topic
+___________________________
+kafka-topics.sh --bootstrap-server localhost:9092 --topic first_topic --create --partitions 3 --replication-factor 1
