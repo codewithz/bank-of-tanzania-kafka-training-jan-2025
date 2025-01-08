@@ -1,5 +1,5 @@
 0
-51
+53
 __consumer_offsets 13 0
 __consumer_offsets 46 0
 __consumer_offsets 9 0
@@ -22,6 +22,7 @@ __consumer_offsets 20 0
 __consumer_offsets 49 0
 __consumer_offsets 0 0
 __consumer_offsets 29 1
+bot_tx_values 2 0
 __consumer_offsets 25 0
 __consumer_offsets 8 0
 __consumer_offsets 37 0
@@ -34,6 +35,7 @@ __consumer_offsets 44 0
 __consumer_offsets 23 0
 __consumer_offsets 19 0
 __consumer_offsets 32 0
+bot_tx_values 1 0
 __consumer_offsets 28 0
 __consumer_offsets 7 0
 __consumer_offsets 40 0
