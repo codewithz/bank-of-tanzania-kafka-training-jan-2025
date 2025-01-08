@@ -1,5 +1,5 @@
 0
-54
+57
 __consumer_offsets 29 2
 __consumer_offsets 43 0
 __consumer_offsets 0 0
@@ -24,14 +24,17 @@ __consumer_offsets 17 0
 __consumer_offsets 32 0
 __consumer_offsets 39 0
 __consumer_offsets 2 0
-__consumer_offsets 44 0
+bot_wikimeida_messages 1 0
+bot_wikimeida_messages 2 0
 __consumer_offsets 12 0
+__consumer_offsets 44 0
 __consumer_offsets 36 0
 __consumer_offsets 45 3
 __consumer_offsets 16 1388
-__consumer_offsets 10 0
+bot_wikimeida_messages 3 0
 __consumer_offsets 11 0
 _schemas 0 4
+__consumer_offsets 10 0
 __consumer_offsets 20 0
 __consumer_offsets 47 0
 __consumer_offsets 18 0
