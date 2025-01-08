@@ -1,5 +1,5 @@
 0
-57
+60
 __consumer_offsets 29 2
 __consumer_offsets 43 0
 __consumer_offsets 0 0
@@ -38,11 +38,14 @@ __consumer_offsets 10 0
 __consumer_offsets 20 0
 __consumer_offsets 47 0
 __consumer_offsets 18 0
+bot_wikimedia_messages 1 89
+bot_wikimedia_messages 2 138
 bot_first_topic 0 703
 __consumer_offsets 7 0
 __consumer_offsets 48 0
 bot_tx_values 2 776
 __consumer_offsets 22 0
+bot_wikimedia_messages 0 95
 bot_tx_values 0 672
 __consumer_offsets 46 0
 __consumer_offsets 23 0
