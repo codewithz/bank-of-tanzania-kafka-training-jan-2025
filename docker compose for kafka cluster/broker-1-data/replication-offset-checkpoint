@@ -1,5 +1,5 @@
 0
-60
+63
 __consumer_offsets 29 2
 __consumer_offsets 43 0
 __consumer_offsets 0 0
@@ -18,7 +18,9 @@ __consumer_offsets 8 1331
 __consumer_offsets 24 0
 __consumer_offsets 49 0
 __consumer_offsets 3 0
+bot_tx_data 2 0
 __consumer_offsets 40 0
+bot_tx_data 0 0
 __consumer_offsets 27 0
 __consumer_offsets 17 0
 __consumer_offsets 32 0
@@ -37,15 +39,16 @@ _schemas 0 4
 __consumer_offsets 10 0
 __consumer_offsets 20 0
 __consumer_offsets 47 0
+bot_tx_data 1 1
 __consumer_offsets 18 0
-bot_wikimedia_messages 1 89
-bot_wikimedia_messages 2 138
+bot_wikimedia_messages 1 153
+bot_wikimedia_messages 2 161
 bot_first_topic 0 703
 __consumer_offsets 7 0
 __consumer_offsets 48 0
 bot_tx_values 2 776
 __consumer_offsets 22 0
-bot_wikimedia_messages 0 95
+bot_wikimedia_messages 0 133
 bot_tx_values 0 672
 __consumer_offsets 46 0
 __consumer_offsets 23 0
