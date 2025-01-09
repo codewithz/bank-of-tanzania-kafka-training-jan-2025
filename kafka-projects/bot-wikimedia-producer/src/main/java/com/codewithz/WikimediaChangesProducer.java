@@ -27,6 +27,26 @@ public class WikimediaChangesProducer {
         props.setProperty(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,
                 StringSerializer.class.getName());
 
+        // For Safe Producer Config
+
+        props.
+                setProperty(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, "true");
+        props.
+                setProperty(ProducerConfig.ACKS_CONFIG, "all");
+        props.
+                setProperty(ProducerConfig.RETRIES_CONFIG,Integer.toString(Integer.MAX_VALUE));
+
+        // High Throughput Producer
+        // (At expense of latency and CPU Usage)
+
+        props
+                .setProperty(ProducerConfig.COMPRESSION_TYPE_CONFIG, "snappy");
+        props
+                .setProperty(ProducerConfig.LINGER_MS_CONFIG, "20");
+        props
+                .setProperty(ProducerConfig.BATCH_SIZE_CONFIG, Integer.toString(32*1024));
+
+
         KafkaProducer<String, String> producer = new KafkaProducer<>(props);
 
         String url="https://stream.wikimedia.org/v2/stream/recentchange";
