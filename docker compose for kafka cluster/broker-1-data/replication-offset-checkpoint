@@ -41,14 +41,14 @@ __consumer_offsets 20 0
 __consumer_offsets 47 0
 bot_tx_data 1 1
 __consumer_offsets 18 0
-bot_wikimedia_messages 1 153
-bot_wikimedia_messages 2 184
+bot_wikimedia_messages 1 274
+bot_wikimedia_messages 2 301
 bot_first_topic 0 703
 __consumer_offsets 7 0
 __consumer_offsets 48 0
 bot_tx_values 2 776
 __consumer_offsets 22 0
-bot_wikimedia_messages 0 159
+bot_wikimedia_messages 0 332
 bot_tx_values 0 672
 __consumer_offsets 46 0
 __consumer_offsets 23 0
