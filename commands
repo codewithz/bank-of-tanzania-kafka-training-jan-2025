@@ -25,3 +25,9 @@ kafka-topics --bootstrap-server localhost:9092 \
 --create \
 --partitions 3 \
 --replication-factor 1
+
+For Starting Open Search
+
+Go to opensearch docker folder
+____________________________________________________
+docker-compose -f .\docker-compose.yml up -d
