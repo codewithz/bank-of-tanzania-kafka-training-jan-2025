@@ -1,0 +1,5 @@
+# Ignore all folders inside the specific folder
+/docker compose for kafka cluster/**/
+
+# Do not ignore files inside the specific folder
+!/docker compose for kafka cluster/*
