@@ -10,7 +10,7 @@ public class TransactionSender {
 
     public static void main(String[] args) {
         // API Endpoint URL
-        String apiUrl = "http://localhost:9099/api/transactions";
+        String apiUrl = "http://localhost:9098/api/transactions";
 
         // Generate 500 mock transactions
         List<Transaction> transactions = generateMockTransactions(10);
