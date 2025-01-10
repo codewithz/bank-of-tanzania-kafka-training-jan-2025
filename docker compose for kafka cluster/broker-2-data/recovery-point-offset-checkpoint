@@ -1,5 +1,5 @@
 0
-106
+110
 __transaction_state 42 0
 __consumer_offsets 13 0
 __consumer_offsets 46 0
@@ -9,6 +9,7 @@ __consumer_offsets 21 0
 __transaction_state 9 0
 __transaction_state 26 0
 __consumer_offsets 30 0
+bot_order_data 0 0
 __transaction_state 1 0
 __transaction_state 18 0
 __consumer_offsets 5 0
@@ -43,6 +44,7 @@ __consumer_offsets 47 0
 __consumer_offsets 14 0
 _confluent-ksql-default__command_topic 0 2
 __transaction_state 14 0
+bot_processed_order 0 0
 __transaction_state 47 0
 __consumer_offsets 22 0
 __transaction_state 6 0
@@ -56,6 +58,7 @@ __transaction_state 23 0
 __transaction_state 13 0
 __transaction_state 46 0
 __consumer_offsets 9 547
+bot_processed_order 1 0
 __consumer_offsets 42 0
 __transaction_state 5 0
 __transaction_state 38 0
@@ -70,6 +73,7 @@ _schemas 0 5
 __transaction_state 12 0
 __transaction_state 45 0
 __consumer_offsets 41 0
+bot_processed_order 2 0
 __consumer_offsets 24 0
 __transaction_state 4 0
 __transaction_state 37 0

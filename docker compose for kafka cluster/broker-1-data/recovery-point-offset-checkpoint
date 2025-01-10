@@ -1,5 +1,5 @@
 0
-105
+109
 __transaction_state 42 0
 __consumer_offsets 13 0
 default_ksql_processing_log 0 0
@@ -34,6 +34,7 @@ __transaction_state 48 0
 __consumer_offsets 23 0
 __transaction_state 7 0
 __transaction_state 40 0
+bot_order_data 2 0
 __consumer_offsets 32 0
 __transaction_state 32 0
 __consumer_offsets 7 0
@@ -42,6 +43,7 @@ __transaction_state 24 0
 __consumer_offsets 47 0
 __consumer_offsets 14 0
 __transaction_state 14 0
+bot_processed_order 0 0
 __transaction_state 47 0
 __consumer_offsets 22 0
 __transaction_state 6 0
@@ -55,6 +57,7 @@ __transaction_state 23 0
 __transaction_state 13 0
 __transaction_state 46 0
 __consumer_offsets 9 547
+bot_processed_order 1 0
 __consumer_offsets 42 0
 __transaction_state 5 0
 __transaction_state 38 0
@@ -70,6 +73,7 @@ _schemas 0 2
 __transaction_state 12 0
 __transaction_state 45 0
 __consumer_offsets 41 0
+bot_processed_order 2 0
 __consumer_offsets 24 0
 bot_wordcount_output 1 0
 __transaction_state 4 0

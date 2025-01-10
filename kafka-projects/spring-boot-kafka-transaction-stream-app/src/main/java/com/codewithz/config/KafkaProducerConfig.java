@@ -1,5 +1,6 @@
 package com.codewithz.config;
 
+import com.codewithz.model.Order;
 import com.codewithz.model.Transaction;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -17,7 +18,7 @@ import java.util.Map;
 public class KafkaProducerConfig {
 
     @Bean
-    public ProducerFactory<String, Transaction> producerFactory() {
+    public ProducerFactory<String, Order> orderProducerFactory() {
         Map<String, Object> configProps = new HashMap<>();
         configProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
         configProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
@@ -25,9 +26,24 @@ public class KafkaProducerConfig {
         return new DefaultKafkaProducerFactory<>(configProps);
     }
 
-    @Bean
-    public KafkaTemplate<String, Transaction> kafkaTemplate() {
-        return new KafkaTemplate<>(producerFactory());
+    @Bean(name = "orderKafkaTemplate")
+    public KafkaTemplate<String, Order> orderKafkaTemplate() {
+        return new KafkaTemplate<>(orderProducerFactory());
     }
+
+    @Bean
+    public ProducerFactory<String, Transaction> transactionProducerFactory() {
+        Map<String, Object> configProps = new HashMap<>();
+        configProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        configProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
+        configProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
+        return new DefaultKafkaProducerFactory<>(configProps);
+    }
+
+    @Bean(name = "transactionKafkaTemplate")
+    public KafkaTemplate<String, Transaction> transactionKafkaTemplate() {
+        return new KafkaTemplate<>(transactionProducerFactory());
+    }
+
 }
 

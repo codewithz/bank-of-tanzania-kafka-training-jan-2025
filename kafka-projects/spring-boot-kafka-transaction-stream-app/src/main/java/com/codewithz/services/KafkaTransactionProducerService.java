@@ -2,6 +2,7 @@ package com.codewithz.services;
 
 import com.codewithz.model.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
@@ -15,7 +16,7 @@ public class KafkaTransactionProducerService {
     private final KafkaTemplate<String, Transaction> kafkaTemplate;
 
     @Autowired
-    public KafkaTransactionProducerService(KafkaTemplate<String, Transaction> kafkaTemplate) {
+    public KafkaTransactionProducerService( @Qualifier("transactionKafkaTemplate") KafkaTemplate<String, Transaction> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
     }
 
