@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.sql.SQLOutput;
+
 @RestController
 @RequestMapping("/api/transactions")
 public class TransactionController {
@@ -26,7 +28,7 @@ public class TransactionController {
         Transaction validatedTransaction=transactionValidationService.validateAndTransform(transaction);
 
         kafkaTransactionProducerService.sendTransaction(validatedTransaction);
-
+        System.out.println("Transaction successfully validated");
         return ResponseEntity.ok("Transaction successfully validated");
     }
 }

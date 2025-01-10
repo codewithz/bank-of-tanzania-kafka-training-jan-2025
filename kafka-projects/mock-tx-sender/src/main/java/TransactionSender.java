@@ -13,7 +13,7 @@ public class TransactionSender {
         String apiUrl = "http://localhost:9099/api/transactions";
 
         // Generate 500 mock transactions
-        List<Transaction> transactions = generateMockTransactions(500);
+        List<Transaction> transactions = generateMockTransactions(10);
 
         // Send transactions
         for (Transaction transaction : transactions) {
@@ -47,7 +47,7 @@ public class TransactionSender {
             transaction.setTxId("TX" + i); // Sequential transaction IDs
             transaction.setBankName(bankNames[random.nextInt(bankNames.length)]); // Random bank name
             transaction.setAccountHolder(accountHolders[random.nextInt(accountHolders.length)]); // Random account holder
-            transaction.setAmount(50 + random.nextInt(451)); // Random amount between 50 and 500
+            transaction.setAmount(100 + random.nextInt(451)); // Random amount between 50 and 500
             transaction.setBalanceAmount(1000 + random.nextInt(9000)); // Random balance between 1000 and 10000
             transaction.setCountry("Tanzania");
             transaction.setState(states[random.nextInt(states.length)]); // Random state

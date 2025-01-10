@@ -1,5 +1,5 @@
 0
-102
+105
 __consumer_offsets 43 0
 __transaction_state 6 0
 __consumer_offsets 30 0
@@ -13,6 +13,7 @@ __transaction_state 49 0
 __transaction_state 47 0
 __consumer_offsets 49 0
 __transaction_state 35 0
+bot_wordcount_output 1 6
 __consumer_offsets 40 0
 __transaction_state 45 0
 __consumer_offsets 27 0
@@ -44,14 +45,14 @@ __consumer_offsets 4 0
 __transaction_state 11 0
 __transaction_state 33 0
 __transaction_state 3 0
-__consumer_offsets 1 0
+__consumer_offsets 1 9
 __consumer_offsets 38 0
 __transaction_state 1 0
 __consumer_offsets 14 0
 __transaction_state 8 0
 __transaction_state 36 0
 __transaction_state 48 0
-__consumer_offsets 29 1
+__consumer_offsets 29 237
 __consumer_offsets 6 0
 __consumer_offsets 0 0
 __consumer_offsets 35 0
@@ -81,8 +82,9 @@ __transaction_state 38 0
 __transaction_state 46 0
 __consumer_offsets 44 0
 __consumer_offsets 16 0
+bot_wordcount_input 1 5
 __transaction_state 0 0
-_schemas 0 2
+_schemas 0 7
 __transaction_state 15 0
 __transaction_state 40 0
 __consumer_offsets 47 0
@@ -90,6 +92,7 @@ __transaction_state 21 0
 __consumer_offsets 7 0
 __transaction_state 17 0
 __transaction_state 24 0
+wordcount-app-KSTREAM-AGGREGATE-STATE-STORE-0000000004-repartition 0 5
 __transaction_state 43 0
 __consumer_offsets 22 0
 default_ksql_processing_log 0 0
