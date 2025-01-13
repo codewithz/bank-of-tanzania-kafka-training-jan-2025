@@ -1,9 +1,9 @@
 0
-109
+111
 bot_order_data 2 0
 __consumer_offsets 43 0
 __transaction_state 6 0
-__consumer_offsets 30 0
+__consumer_offsets 30 18
 __consumer_offsets 32 0
 __transaction_state 30 0
 __transaction_state 32 0
@@ -12,8 +12,8 @@ __consumer_offsets 25 0
 __consumer_offsets 41 0
 __transaction_state 34 0
 __transaction_state 49 0
-__transaction_state 47 0
 bot_processed_order 0 1
+__transaction_state 47 0
 __consumer_offsets 49 0
 __transaction_state 35 0
 bot_wordcount_output 1 6
@@ -26,7 +26,7 @@ __consumer_offsets 12 0
 __transaction_state 23 0
 __consumer_offsets 36 0
 __consumer_offsets 45 0
-__consumer_offsets 10 53
+__consumer_offsets 10 710
 __consumer_offsets 11 0
 __transaction_state 22 0
 __transaction_state 39 0
@@ -56,7 +56,7 @@ __consumer_offsets 14 0
 __transaction_state 8 0
 __transaction_state 36 0
 __transaction_state 48 0
-__consumer_offsets 29 237
+__consumer_offsets 29 240
 __consumer_offsets 6 0
 __consumer_offsets 0 0
 __consumer_offsets 35 0
@@ -77,6 +77,7 @@ __transaction_state 9 0
 __transaction_state 27 0
 __transaction_state 42 0
 __consumer_offsets 3 0
+wikimedia-bot-count-app-bot_state_store-repartition 0 815
 __consumer_offsets 17 0
 __transaction_state 19 0
 __consumer_offsets 39 0
@@ -88,7 +89,7 @@ __consumer_offsets 44 0
 __consumer_offsets 16 0
 bot_wordcount_input 1 5
 __transaction_state 0 0
-_schemas 0 7
+_schemas 0 10
 __transaction_state 15 0
 __transaction_state 40 0
 __consumer_offsets 47 0
@@ -102,6 +103,7 @@ __consumer_offsets 22 0
 default_ksql_processing_log 0 0
 __transaction_state 37 0
 __consumer_offsets 46 0
+wikimedia-bot-count-app-bot_state_store-changelog 0 15
 __consumer_offsets 31 0
 __transaction_state 12 0
 __consumer_offsets 5 0

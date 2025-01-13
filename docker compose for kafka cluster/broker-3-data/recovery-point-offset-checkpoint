@@ -1,5 +1,5 @@
 0
-109
+110
 __transaction_state 42 0
 __consumer_offsets 13 0
 __consumer_offsets 46 0
@@ -41,6 +41,7 @@ __consumer_offsets 7 0
 __consumer_offsets 40 0
 __transaction_state 24 0
 __consumer_offsets 47 0
+bot_wikimedia_stats 0 0
 __consumer_offsets 14 0
 __transaction_state 14 0
 bot_processed_order 0 0

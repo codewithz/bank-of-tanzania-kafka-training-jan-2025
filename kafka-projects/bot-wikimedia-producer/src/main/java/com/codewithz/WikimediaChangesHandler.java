@@ -34,14 +34,16 @@ public class WikimediaChangesHandler implements EventHandler {
     @Override
     public void onMessage(String event, MessageEvent messageEvent) throws Exception {
 
-        boolean isValid=validate(messageEvent);
-        if(isValid){
-            sendRecord(messageEvent);
-        }
-        else{
-            //DO NOTHING
-            logger.info("BOT MESSAGE RECEIVED");
-        }
+//        boolean isValid=validate(messageEvent);
+//        if(isValid){
+//            sendRecord(messageEvent);
+//        }
+//        else{
+//            //DO NOTHING
+//            logger.info("BOT MESSAGE RECEIVED");
+//        }
+
+        sendRecord(messageEvent);
 
     }
 

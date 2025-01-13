@@ -1,5 +1,5 @@
 0
-109
+111
 __transaction_state 42 0
 __consumer_offsets 13 0
 default_ksql_processing_log 0 0
@@ -71,6 +71,7 @@ __consumer_offsets 34 0
 __consumer_offsets 16 0
 _schemas 0 2
 __transaction_state 12 0
+wikimedia-bot-count-app-bot_state_store-repartition 0 794
 __transaction_state 45 0
 __consumer_offsets 41 0
 bot_processed_order 2 0
@@ -94,6 +95,7 @@ __transaction_state 36 0
 __consumer_offsets 19 0
 __transaction_state 28 0
 __consumer_offsets 28 0
+wikimedia-bot-count-app-bot_state_store-changelog 0 0
 __transaction_state 20 0
 __consumer_offsets 3 0
 __consumer_offsets 36 0
